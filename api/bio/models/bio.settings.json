@@ -9,9 +9,6 @@
     "timestamps": true
   },
   "attributes": {
-    "resume": {
-      "type": "text"
-    },
     "full": {
       "type": "richtext"
     },

@@ -23,7 +23,7 @@
     },
     "ending": {
       "type": "date",
-      "required": true
+      "required": false
     },
     "image": {
       "model": "file",
