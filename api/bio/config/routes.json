@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bio",
+      "handler": "bio.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bio",
+      "handler": "bio.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bio",
+      "handler": "bio.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
