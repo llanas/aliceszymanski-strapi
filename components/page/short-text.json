@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_short_texts",
+  "info": {
+    "name": "shortText",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left"
+      ]
+    }
+  }
+}

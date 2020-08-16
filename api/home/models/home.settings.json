@@ -9,33 +9,21 @@
     "timestamps": true
   },
   "attributes": {
-    "description": {
-      "type": "string"
-    },
-    "cover": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "videos"
-      ],
-      "plugin": "upload",
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header",
       "required": true
     },
-    "bio": {
-      "type": "text"
-    },
-    "bioPhoto": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
+    "shortBio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.short-text",
       "required": false
     },
-    "contact": {
-      "type": "text"
+    "content": {
+      "type": "dynamiczone",
+      "components": []
     }
   }
 }
