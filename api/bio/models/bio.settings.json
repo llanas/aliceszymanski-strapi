@@ -9,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "full": {
+    "firstPart": {
       "type": "richtext"
     },
     "photo": {
@@ -20,6 +20,14 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "secondPart": {
+      "type": "richtext"
+    },
+    "activities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.short-text"
     }
   }
 }
