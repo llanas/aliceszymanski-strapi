@@ -9,9 +9,6 @@
     "timestamps": true
   },
   "attributes": {
-    "firstPart": {
-      "type": "richtext"
-    },
     "photo": {
       "model": "file",
       "via": "related",
@@ -21,13 +18,15 @@
       "plugin": "upload",
       "required": false
     },
-    "secondPart": {
-      "type": "richtext"
+    "resume": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.text-zone"
     },
     "activities": {
       "type": "component",
       "repeatable": true,
-      "component": "page.short-text"
+      "component": "page.text-zone"
     }
   }
 }

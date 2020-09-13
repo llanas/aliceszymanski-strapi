@@ -18,12 +18,7 @@
     "shortBio": {
       "type": "component",
       "repeatable": false,
-      "component": "page.short-text",
-      "required": false
-    },
-    "content": {
-      "type": "dynamiczone",
-      "components": []
+      "component": "page.text-zone"
     }
   }
 }

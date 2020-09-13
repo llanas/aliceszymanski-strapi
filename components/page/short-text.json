@@ -8,28 +8,10 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
-    },
-    "content": {
-      "type": "richtext"
-    },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
       "required": false
     },
-    "imagePosition": {
-      "type": "enumeration",
-      "enum": [
-        "right",
-        "left"
-      ]
+    "text": {
+      "type": "richtext"
     }
   }
 }

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_text_zones",
+  "info": {
+    "name": "textZone",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "displayAsColumn": {
+      "type": "boolean"
+    },
+    "listContents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.short-text"
+    },
+    "isJustified": {
+      "type": "boolean"
+    },
+    "isCentered": {
+      "type": "boolean"
+    },
+    "medias": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
