@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Pages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.text-zone"
+    },
+    "music_type": {
+      "model": "music-type",
+      "via": "pages"
+    },
+    "url": {
+      "type": "string",
+      "required": false,
+      "unique": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "music_types",
+  "info": {
+    "name": "musicType"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "color": {
+      "model": "color",
+      "via": "music_types"
+    },
+    "pages": {
+      "via": "music_type",
+      "collection": "pages"
+    }
+  }
+}
