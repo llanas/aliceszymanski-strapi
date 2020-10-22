@@ -11,9 +11,6 @@
       "unique": false,
       "required": true
     },
-    "description": {
-      "type": "string"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -24,6 +21,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

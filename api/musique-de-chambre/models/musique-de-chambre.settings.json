@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "musique_de_chambres",
+  "info": {
+    "name": "Musique de chambre"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "pages": {
+      "collection": "pages"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

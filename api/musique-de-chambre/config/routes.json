@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/musique-de-chambre",
+      "handler": "musique-de-chambre.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/musique-de-chambre",
+      "handler": "musique-de-chambre.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/musique-de-chambre",
+      "handler": "musique-de-chambre.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
