@@ -22,14 +22,18 @@
       "repeatable": true,
       "component": "page.text-zone"
     },
-    "music_type": {
-      "model": "music-type",
-      "via": "pages"
-    },
     "url": {
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.membre"
+    },
+    "soundcloudLink": {
+      "type": "string"
     }
   }
 }

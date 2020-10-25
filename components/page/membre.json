@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_membres",
+  "info": {
+    "name": "membre",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "work": {
+      "type": "string"
+    },
+    "profil": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

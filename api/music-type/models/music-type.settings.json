@@ -15,10 +15,6 @@
     "color": {
       "model": "color",
       "via": "music_types"
-    },
-    "pages": {
-      "via": "music_type",
-      "collection": "pages"
     }
   }
 }

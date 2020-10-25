@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "name": "footer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "socialmediaLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social.socialmedia-link"
+    },
+    "thanks": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    }
+  }
+}
