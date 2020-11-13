@@ -25,6 +25,9 @@
       "repeatable": true,
       "component": "page.media-item",
       "max": 3
+    },
+    "medias": {
+      "collection": "medias"
     }
   }
 }
