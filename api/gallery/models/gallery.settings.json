@@ -9,17 +9,8 @@
     "timestamps": true
   },
   "attributes": {
-    "images": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "title": {
-      "type": "string"
+    "photos": {
+      "collection": "photo"
     }
   }
 }

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photos",
+  "info": {
+    "name": "Photo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "ratio": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "wide",
+        "tall",
+        "big"
+      ],
+      "default": "normal"
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
