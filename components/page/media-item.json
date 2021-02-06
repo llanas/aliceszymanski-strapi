@@ -1,16 +1,15 @@
 {
   "collectionName": "components_page_media_items",
   "info": {
-    "name": "mediaItem",
+    "name": "FlexGalleryItem",
     "icon": "barcode"
   },
   "options": {},
   "attributes": {
-    "background": {
+    "backgroundMedia": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
         "videos"
       ],
@@ -19,6 +18,15 @@
     },
     "page": {
       "model": "pages"
+    },
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
     }
   }
 }
