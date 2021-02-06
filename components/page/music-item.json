@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_music_items",
+  "info": {
+    "name": "MusicItem",
+    "icon": "headphones-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "music": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

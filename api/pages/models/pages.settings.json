@@ -30,10 +30,17 @@
     "members": {
       "type": "component",
       "repeatable": true,
-      "component": "page.membre"
+      "component": "page.membre",
+      "max": 3
     },
     "soundcloudLink": {
       "type": "string"
+    },
+    "musicItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.music-item",
+      "max": 3
     }
   }
 }
